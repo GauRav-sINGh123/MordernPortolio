@@ -25,18 +25,10 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto text-center"
         >
-          <motion.div 
-            className="mb-8 inline-flex items-center space-x-3 bg-primary/10 px-4 py-2 rounded-full"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
-          >
-            <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-            <span className="text-sm text-primary">Available for Work</span>
-          </motion.div>
+           
 
           <motion.h1 
-            className="text-6xl md:text-8xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/50"
+            className="text-6xl md:text-8xl font-bold mb-8 mt-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/50"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
@@ -52,8 +44,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
           >
-            Senior Full Stack Developer specializing in building exceptional 
-            digital experiences that combine creativity with technical excellence.
+            Hi,I'm Gaurav Singh, a passionate developer with a knack for crafting captivating digital experiences.
           </motion.p>
 
           <motion.div
@@ -100,9 +91,9 @@ export default function Hero() {
         transition={{ delay: 1.2 }}
       >
         {[
-          { icon: Github, href: 'https://github.com' },
-          { icon: Linkedin, href: 'https://linkedin.com' },
-          { icon: Twitter, href: 'https://twitter.com' }
+          { icon: Github, href: 'https://github.com/GauRav-sINGh123' },
+          { icon: Linkedin, href: 'https://www.linkedin.com/in/gaurav-singh-746916238' },
+          
         ].map(({ icon: Icon, href }, index) => (
           <motion.a
             key={href}
