@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import ThemeToggle  from './ThemeToggle'
 import Link from 'next/link';
 
 export default function Navbar() {
@@ -45,6 +46,7 @@ export default function Navbar() {
               </motion.li>
             ))}
           </ul>
+          <ThemeToggle/>
         </div>
       </nav>
     </motion.header>
