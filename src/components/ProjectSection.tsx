@@ -2,31 +2,31 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import { ArrowUpRight, Github, ExternalLink } from "lucide-react";
+import {Github, ExternalLink } from "lucide-react";
 import { ProjectPreview } from "@/components/project-preview";
 import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "AI-Powered Design System",
+    title: "Maison",
     description:
-      "An intelligent design system that adapts to user behavior and automatically generates UI components.",
+      "Maison is an AI-powered interior design platform that generates personalized design recommendations based on user preferences. Built with Next.js, Firebase, Replicate AI, Zustand for state management, and Tailwind CSS for a sleek, responsive UI.",
     preview:
-      "",
-    tags: ["React", "TypeScript", "TensorFlow.js", "Tailwind"],
-    github: "https://github.com",
-    link: "#",
+      "/Maison.jpg",
+    tags: ["Next.js","React", "TypeScript", "Replicate", "Tailwind","Zustand", "Firebase","Clerk"],
+    github: "https://github.com/GauRav-sINGh123/Maison",
+    link: "https://maison-iota.vercel.app/",
     featured: true,
   },
   {
-    title: "Real-time Collaboration Platform",
+    title: "NoteNinja",
     description:
-      "A next-gen platform enabling seamless real-time collaboration with AI-assisted features.",
+      "An AI-powered notes generator built using Next.js, TypeScript, Tailwind CSS, Shadcn, Firebase, UUID, and Clerk for authentication. This app allows users to generate, store, and manage notes efficiently with a sleek and responsive UI.",
     preview:
-      "",
-    tags: ["Next.js", "Socket.io", "Redis", "WebRTC"],
-    github: "https://github.com",
-    link: "#",
+      "/Note.jpg",
+    tags: ["Next.js", "TypeScript", "Tailwind", "Clerk","Firebase","Framer Motion"],
+    github: "https://github.com/GauRav-sINGh123/NoteNinja",
+    link: "https://note-ninja-seven.vercel.app/",
     featured: true,
   },
   {

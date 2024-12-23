@@ -5,7 +5,8 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import Hero from '@/components/Hero';
 import { BackgroundGrid } from '@/components/ui/background-grid';
 import Navbar from '@/components/Navbar';
-import { ProjectsSection } from '@/components/ui/ProjectSection';
+import { ProjectsSection } from '@/components/ProjectSection';
+ 
 
 
 export default function Home() {

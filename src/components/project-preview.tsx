@@ -9,7 +9,7 @@ export function ProjectPreview({ src }: { src: string }) {
       <motion.div
         whileHover={{ scale: 1.05 }}
         transition={{ duration: 0.3 }}
-        className="relative aspect-[4/3]"
+        className="relative aspect-[16/9] group"
       >
         <Image
           src={src}
