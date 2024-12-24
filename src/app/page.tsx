@@ -6,6 +6,7 @@ import Hero from '@/components/Hero';
 import { BackgroundGrid } from '@/components/ui/background-grid';
 import Navbar from '@/components/Navbar';
 import { ProjectsSection } from '@/components/ProjectSection';
+import SkillsSection from '@/components/Skills';
  
 
 
@@ -28,6 +29,7 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       <ProjectsSection/>
+      <SkillsSection/>
     </main>
   );
 }
