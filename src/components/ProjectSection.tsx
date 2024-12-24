@@ -30,39 +30,39 @@ const projects = [
     featured: true,
   },
   {
-    title: "Blockchain Analytics Dashboard",
+    title: "Triply",
     description:
-      "Advanced analytics platform for blockchain data visualization and analysis.",
+      "Triply is an AI-powered trip planning application that helps users create personalized travel itineraries with ease.",
     preview:
-      "",
-    tags: ["Vue.js", "D3.js", "Web3", "GraphQL"],
-    github: "https://github.com",
-    link: "#",
+      "/Triply.jpg",
+    tags: ["ReactJs","Google Maps Api","Gemini Api","Tailwind","Firebase"],
+    github: "https://github.com/GauRav-sINGh123/Triply",
+    link: "https://blog-85ce6.web.app/",
     featured: true,
   },
   {
-    title: "Smart Home Automation",
+    title: "PikClick",
     preview:
-      "",
-    tags: ["IoT", "Node.js", "MQTT", "React Native"],
-    github: "https://github.com",
-    link: "#",
+      "/PikClick.jpg",
+    tags: ["React", "Tailwind CSS", "Firebase"],
+    github: "https://github.com/GauRav-sINGh123/PikClick",
+    link: "https://pikclik-bba5c.web.app/",
   },
   {
-    title: "E-Learning Platform",
+    title: "MovieHub",
     preview:
-      "",
-    tags: ["Next.js", "PostgreSQL", "WebRTC", "AWS"],
-    github: "https://github.com",
-    link: "#",
+      "/MovieHub.jpg",
+    tags: ["React", "Tailwind CSS", "Omdb Api"],
+    github: "https://github.com/GauRav-sINGh123/MovieHub",
+    link: "https://movie-hub-xi-flax.vercel.app/",
   },
   {
-    title: "Crypto Trading Bot",
+    title: "Job Finder",
     preview:
-      "",
-    tags: ["Python", "TensorFlow", "FastAPI", "Redis"],
-    github: "https://github.com",
-    link: "#",
+      "/JobFinder.jpg",
+    tags: ["React", "Tailwind CSS", "Firebase"],
+    github: "https://github.com/GauRav-sINGh123/JobFinder",
+    link: "https://online-job-portal-26f13.web.app/#_",
   },
 ];
 
