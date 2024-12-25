@@ -5,6 +5,7 @@ import { useRef } from "react";
 import {Github, ExternalLink } from "lucide-react";
 import { ProjectPreview } from "@/components/project-preview";
 import { Button } from "@/components/ui/button";
+import { desc } from "framer-motion/client";
 
 const projects = [
   {
@@ -42,6 +43,7 @@ const projects = [
   },
   {
     title: "PikClick",
+    description:"Modern Cloud Storage App that allows users to upload and share their images with ease.",
     preview:
       "/PikClick.jpg",
     tags: ["React", "Tailwind CSS", "Firebase"],
@@ -50,6 +52,7 @@ const projects = [
   },
   {
     title: "MovieHub",
+    description:"Search your favorite movies and get detailed information about them.",
     preview:
       "/MovieHub.jpg",
     tags: ["React", "Tailwind CSS", "Omdb Api"],
@@ -58,6 +61,7 @@ const projects = [
   },
   {
     title: "Job Finder",
+    description:"Job Finding Application that allows users to search for jobs and apply for them.",
     preview:
       "/JobFinder.jpg",
     tags: ["React", "Tailwind CSS", "Firebase"],
@@ -219,7 +223,7 @@ function ProjectCard({ project, index }: { project: any; index: number }) {
         <h3 className="text-xl font-semibold mb-4 group-hover:text-primary transition-colors">
           {project.title}
         </h3>
-
+           <p className="text-muted-foreground text-sm">{project.description}</p>
         <div className="flex gap-4">
           <a
             href={project.github}
