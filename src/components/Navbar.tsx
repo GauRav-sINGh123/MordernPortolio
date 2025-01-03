@@ -25,7 +25,7 @@ export default function Navbar() {
           transition={{ delay: 0.2 }}
           className="text-xl font-bold"
         >
-          <Link href="/">JD</Link>
+          <Link href="/">GS</Link>
         </motion.div>
         
         <div className="flex items-center gap-8">
